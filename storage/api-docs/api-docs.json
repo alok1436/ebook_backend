@@ -4,6 +4,11 @@
         "title": "Book store",
         "version": "0.1"
     },
+    "servers": [
+        {
+            "url": "http://bookstore.cubicquest.com/"
+        }
+    ],
     "paths": {
         "/api/register": {
             "post": {
@@ -381,12 +386,6 @@
                 "name": "Token based Based",
                 "in": "header",
                 "scheme": "bearer"
-            },
-            "bearer_token": {
-                "type": "apiKey",
-                "description": "Enter token in format (Bearer <token>)",
-                "name": "Authorization",
-                "in": "header"
             }
         }
     }
