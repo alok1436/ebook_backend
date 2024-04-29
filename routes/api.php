@@ -1,12 +1,10 @@
 <?php
-
-use App\Http\Controllers\API\OrderController;
-use App\Http\Controllers\API\ProductController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\UserController;
 use App\Http\Controllers\Api\AuthController;
-
+use App\Http\Controllers\Api\OrderController;
+use App\Http\Controllers\Api\ProductController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
