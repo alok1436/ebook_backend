@@ -6,7 +6,7 @@
     },
     "servers": [
         {
-            "url": "http://bookstore.cubicquest.com/"
+            "url": "http://bookstore.cubicquest.com/backend"
         }
     ],
     "paths": {
